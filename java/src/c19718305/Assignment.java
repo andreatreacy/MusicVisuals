@@ -3,6 +3,14 @@ package c19718305;
 import ie.tudublin.*;
 import java.util.ArrayList;
 
+/*
+Music Visual Assignment
+Author: Andrea Treacy
+Student Number: C19718305
+Compiler: Visual Studio Code
+Date: 07/05/2021
+*/
+
 public class Assignment extends Visual {
 
     public void settings() {
