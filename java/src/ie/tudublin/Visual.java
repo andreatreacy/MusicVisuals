@@ -34,7 +34,7 @@ public abstract class Visual extends PApplet
 
 	}
 
-	float log2(float f) {
+	public float log2(float f) {
 		return log(f) / log(2.0f);
 	}
 
@@ -85,9 +85,9 @@ public abstract class Visual extends PApplet
 		ab = ai.left;
 	}
 
-	public void loadAudio(String filename)
+	public void loadAudio(String filename, int width)	// also take width as width will be the frame size
 	{
-		ap = minim.loadFile(filename, frameSize);
+		ap = minim.loadFile(filename, width);
 		ab = ap.mix;
 	}
 
